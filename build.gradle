@@ -1,3 +1,4 @@
 project.ext.mainClassName = "com.project.service.api.ProjectServiceProcessApiApplication"
 dependencies {
+    implementation project.ext.project('project-common-db')
 }
